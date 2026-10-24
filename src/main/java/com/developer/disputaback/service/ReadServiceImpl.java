@@ -7,7 +7,6 @@ import com.developer.disputaback.entity.Disputa;
 import com.developer.disputaback.entity.Filtro;
 import com.developer.disputaback.enuns.StatusDisputa;
 import com.developer.disputaback.repository.DisputaRepository;
-import com.developer.disputaback.service.ReadService;
 import com.opencsv.bean.CsvToBean;
 import com.opencsv.bean.CsvToBeanBuilder;
 import lombok.RequiredArgsConstructor;
@@ -19,8 +18,6 @@ import org.springframework.web.multipart.MultipartFile;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
 import java.io.Reader;
-import java.time.LocalDate;
-import java.time.LocalDateTime;
 import java.util.List;
 
 @Service
